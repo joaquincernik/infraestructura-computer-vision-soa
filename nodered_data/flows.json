@@ -1,0 +1,6432 @@
+[
+    {
+        "id": "9f22afbc27130ab3",
+        "type": "tab",
+        "label": "Mongo",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf22383c58f8f23f",
+        "type": "tab",
+        "label": "Flujo 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0b64627c1d570abc",
+        "type": "tab",
+        "label": "Clase 07/03",
+        "disabled": true,
+        "info": "Si escribimos http vamos a tener 3 nodos\nuno que genera las respuestas, otro que es un cliente.\n",
+        "env": []
+    },
+    {
+        "id": "80716a0201809318",
+        "type": "tab",
+        "label": "API REST",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d11188680478243f",
+        "type": "tab",
+        "label": "BOT Telegram",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a5499f60132d0339",
+        "type": "tab",
+        "label": "Tomar Foto con MQTT",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a73b2a3213339cef",
+        "type": "tab",
+        "label": "Telegran notas ",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4d2b797f1a99d255",
+        "type": "tab",
+        "label": "Face recognition",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1b02021741d115ea",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8d29c5cebb56dbf8",
+        "type": "tab",
+        "label": "OBTENER FOTO",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "47e7d3c1bb3dc1b3",
+        "type": "group",
+        "z": "80716a0201809318",
+        "name": "Script DDL de inicialización",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "037ae044a7fd8385",
+            "c1e4ebb42bc077f9",
+            "a3ac35b83778976d",
+            "e986adf2b7192b9c"
+        ],
+        "x": 24,
+        "y": 19,
+        "w": 482,
+        "h": 82
+    },
+    {
+        "id": "df035ab8e917e269",
+        "type": "group",
+        "z": "80716a0201809318",
+        "name": "API REST",
+        "style": {
+            "fill": "#addb7b",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "dc8d73d5438ac1b4",
+            "9d2a9ba725b424f1",
+            "7e64acf6367c6431",
+            "1ba519bbfac619d5",
+            "32538f8877f3e0cc",
+            "067e7142b372d24f",
+            "2f1434d71003b99a",
+            "cb354415256fd345",
+            "9c54fbc65fd75990",
+            "fe3fc3c990623c81",
+            "a0ab35d7e5621a82",
+            "ec1b69c338411c84",
+            "c774c8c77721e919",
+            "49f20dd618dc26ab",
+            "d42f58886f171c5c",
+            "1f48cc9d95095ec4",
+            "3392117b9e224d8c",
+            "fdb7f9954b9bdd87",
+            "221efc1bb79e2176",
+            "2386cfcdb8d3db4c",
+            "72d342a63c57074a",
+            "06f4a0afc76d27af",
+            "c0b3f1e969d9f6ad",
+            "89ef6529a4ea95e7",
+            "db2a4c772a9d07ca",
+            "ea36255f7badd6aa",
+            "c65eac828b106427",
+            "40b7cdb96e4002e4",
+            "b75aa4bf71ae7f28",
+            "197e68a27bb41c45",
+            "cb483c6357917e94",
+            "e41980b83af4095c",
+            "7f646cf38b6e0ae6",
+            "6fc88559f196f2a9",
+            "696cd78fce69f924",
+            "7f5a65619af904ec"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 832,
+        "h": 602
+    },
+    {
+        "id": "ed41f7b3505e1b19",
+        "type": "group",
+        "z": "d11188680478243f",
+        "name": "foto real",
+        "style": {
+            "stroke": "#e3f3d3",
+            "label": true,
+            "color": "#e3f3d3",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "f1f55e4072f2f2f6",
+            "30b024b2ccb8c1d1",
+            "94cfa1266a52f507",
+            "fa7d14bb8c2768a5",
+            "f1d1350342b04d83",
+            "d27aaf1e9ca069a2",
+            "468e22ccd460b91e",
+            "5293f50ab1fc7efd",
+            "11e342bb758c1245",
+            "336f36372e2cfb5b",
+            "5339578467da4c4f",
+            "e9f61255dcece5af",
+            "aa6012daa6a98e12",
+            "529b03012a932099",
+            "4c1c277cd49ed119",
+            "c03af7ae987673db"
+        ],
+        "x": 34,
+        "y": 99,
+        "w": 832,
+        "h": 402
+    },
+    {
+        "id": "b84554758820b972",
+        "type": "group",
+        "z": "d11188680478243f",
+        "name": "foto fake",
+        "style": {
+            "stroke": "#ff3f3f",
+            "label": true
+        },
+        "nodes": [
+            "734a727c8109a6d7",
+            "c0632817b7242764",
+            "712f827d3768ec5a",
+            "aebe08ed396f31cd",
+            "993142c21392ef4c",
+            "be10b60321b20b1e",
+            "915d7a325fe8d38a",
+            "b2c001674c299e88",
+            "2135fe8f487e72ce",
+            "6407a909c9eb8b7c",
+            "eb647e8a3d025a44",
+            "ad48578f9b36ce04",
+            "dc22a67cc95b0276",
+            "d6904d6cfab42468",
+            "fd28e52ebbd4bc69",
+            "4f368ed0dc3a2118",
+            "0fe6edf70a255ab1",
+            "145c3fe25ce1c946"
+        ],
+        "x": -6,
+        "y": 639,
+        "w": 712,
+        "h": 662
+    },
+    {
+        "id": "b413a09bde891c47",
+        "type": "group",
+        "z": "a5499f60132d0339",
+        "name": "foto real",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0d81a1d041085799",
+            "5e967cc0971af554",
+            "b7feacb02f691021",
+            "a5405305c990d6cd"
+        ],
+        "x": 474,
+        "y": 179,
+        "w": 752,
+        "h": 109.5
+    },
+    {
+        "id": "feb954ecbeabf31f",
+        "type": "group",
+        "z": "a5499f60132d0339",
+        "name": "foto fake",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "768ab37168cf911c",
+            "eac1dc3f4e574bc4",
+            "a0e594f6688fdfe6",
+            "b7eda8c1860dd042",
+            "17e592dae890f5a2",
+            "f1ddb9fdb39d6e64"
+        ],
+        "x": 474,
+        "y": 339,
+        "w": 772,
+        "h": 362
+    },
+    {
+        "id": "d6f38bd690f8e0b2",
+        "type": "group",
+        "z": "a73b2a3213339cef",
+        "name": "foto real",
+        "style": {
+            "stroke": "#e3f3d3",
+            "label": true,
+            "color": "#e3f3d3",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "a8f2ddd23730a280",
+            "c24858bbe29d63f0",
+            "78a434623465c3bc",
+            "adaf1fe79f107ee1",
+            "cf411a0789efaa81",
+            "6c8f94c0d10b5152",
+            "0245a1ead7289d7f",
+            "306d2479da55af77",
+            "4cda101873bbc6e0",
+            "acda526950d1203b",
+            "ff5c104a09beea38",
+            "ae37bf6a62a46780",
+            "9421d9a299acce76",
+            "05a9c6ba89327479",
+            "f2eb92d64605b1ec",
+            "3535dddb4c1b01dd"
+        ],
+        "x": 114,
+        "y": 139,
+        "w": 832,
+        "h": 402
+    },
+    {
+        "id": "514cfc2f210bc774",
+        "type": "group",
+        "z": "4d2b797f1a99d255",
+        "name": "Script DDL de inicialización",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "735105bb97815d10",
+            "79c48aebb218528e",
+            "c72799fb9051e77a",
+            "bf66ccb3faf1580c"
+        ],
+        "x": 84,
+        "y": 59,
+        "w": 482,
+        "h": 82
+    },
+    {
+        "id": "6d37df6cdcf81080",
+        "type": "group",
+        "z": "4d2b797f1a99d255",
+        "name": "Insert personas",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "6cd325f17983e3d0",
+            "1683785d2d7d3384",
+            "af7ff35c41195d6f",
+            "0302fdb029a6eb1e",
+            "dacc1cde555ac852",
+            "e5eb93bd0826ebb9"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 832,
+        "h": 82
+    },
+    {
+        "id": "a9a80198754d4c51",
+        "type": "group",
+        "z": "1b02021741d115ea",
+        "name": "Script DDL de inicialización",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "449cfa665ecd6bd3",
+            "fe2b2be324c08f2b",
+            "1695e3f9be05b221",
+            "ec5cc6d47924e48c"
+        ],
+        "x": 14,
+        "y": 59,
+        "w": 482,
+        "h": 82
+    },
+    {
+        "id": "a18ef9d30d6ce7f2",
+        "type": "group",
+        "z": "1b02021741d115ea",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "4ca3659de396d6ec",
+            "886061c0860f96da",
+            "3238a6c188c7e48f",
+            "2cc3385f4cb5d679",
+            "90aa108c7e3f0620",
+            "b822b005add3023f",
+            "720105a1d5a4f3b2",
+            "b5e35816aeacdd9d",
+            "1be07950d554f246",
+            "65355f9a7274d4c3",
+            "8f83367f118dee77",
+            "52170774efd19def",
+            "7878252b0c8a96c3",
+            "1d42c41299842a75",
+            "e9becc2bea73af01",
+            "8dc5b21710c8303a",
+            "62750ad5a9f59d6f",
+            "ba9b4e923249faa7",
+            "bc799f199bcdf5c2",
+            "95c4da9bbcdfb67e",
+            "11997696d2386b35",
+            "37e1f10b9eedea3a",
+            "a95a693cf7f2806f",
+            "5e3c3697d13c668f",
+            "68ba12e73917c8f7",
+            "7f80689ef8c79516",
+            "db925c45b21f1ace",
+            "626d4cc119da9617",
+            "1475a9f45bd92863",
+            "5e1c443e463ace3b",
+            "53b19a6a62f9522c",
+            "b3b49303033c48e5",
+            "4f0223b08f71b762"
+        ],
+        "x": 14,
+        "y": 179,
+        "w": 1952,
+        "h": 422
+    },
+    {
+        "id": "e8687869c6ccace0",
+        "type": "group",
+        "z": "1b02021741d115ea",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "be6b5791c55a2e2f",
+            "8edc5b14b398c65a",
+            "8be6fbe571da7353",
+            "6be2b940d492ee79",
+            "f7c66dcc871f0541",
+            "eec1a6b4ec5f11b9",
+            "93174e68a8161c60",
+            "6b40f4f3ce4a40dd",
+            "fb945063e6443016",
+            "eba5ee503b702a73",
+            "a6f13e7407618551",
+            "d7229d43ee108a95",
+            "4eba8520a7f5411b",
+            "7f754d2a48c28b60"
+        ],
+        "x": 114,
+        "y": 639,
+        "w": 1392,
+        "h": 422
+    },
+    {
+        "id": "b9f401b81204d401",
+        "type": "MySQLdatabase",
+        "name": "mysql",
+        "host": "mysql",
+        "port": "3306",
+        "db": "pruebas",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "7f9248c5ea5c7716",
+        "type": "mongodb4-client",
+        "name": "",
+        "protocol": "mongodb",
+        "hostname": "mongodb",
+        "port": "",
+        "dbName": "testMongo",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "3bdabe9eb9d7a7f5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt_soa2026",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "094c7d355a93548d",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "mysql",
+        "port": "3306",
+        "db": "trabajo_integrador_soa",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "4ea8aa6f5dde5a37",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "5dcfec28477adf55",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "7ec073bec1dc9fad",
+        "type": "ui-page",
+        "name": "Personas",
+        "ui": "5dcfec28477adf55",
+        "path": "/personas",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "4ea8aa6f5dde5a37",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a023bced2b243c8e",
+        "type": "ui-group",
+        "name": "Agregar",
+        "page": "7ec073bec1dc9fad",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "7f46fde876ff3054",
+        "type": "ui-group",
+        "name": "Listado",
+        "page": "7ec073bec1dc9fad",
+        "width": "16",
+        "height": "10",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2c962ddbe4acb632",
+        "type": "ui-group",
+        "name": "Modificar",
+        "page": "7ec073bec1dc9fad",
+        "width": 6,
+        "height": 1,
+        "order": 3,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "f7246726dfdc2d6a",
+        "type": "ui-group",
+        "d": true,
+        "name": "Eliminar",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9ff3d0469784da19",
+        "type": "telegram bot",
+        "botname": "photo_mqtt_soa_2026_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": 300,
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": 6667,
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "0.0.0.0",
+        "localbotport": 8443,
+        "publicbotport": 8443,
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "537e2c04b89e5d12",
+        "type": "inject",
+        "z": "9f22afbc27130ab3",
+        "name": "Ver nombres",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM personas;",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "7790b501363601da"
+            ]
+        ]
+    },
+    {
+        "id": "7790b501363601da",
+        "type": "mysql",
+        "z": "9f22afbc27130ab3",
+        "mydb": "b9f401b81204d401",
+        "name": "SOA",
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "520ef8f3cb67b090"
+            ]
+        ]
+    },
+    {
+        "id": "520ef8f3cb67b090",
+        "type": "debug",
+        "z": "9f22afbc27130ab3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c42f57506653fd3d",
+        "type": "inject",
+        "z": "9f22afbc27130ab3",
+        "name": "Agregar nombres",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "mariano",
+        "payloadType": "str",
+        "x": 120,
+        "y": 300,
+        "wires": [
+            [
+                "1a4e9d3d900cf99a"
+            ]
+        ]
+    },
+    {
+        "id": "1a4e9d3d900cf99a",
+        "type": "function",
+        "z": "9f22afbc27130ab3",
+        "name": "function 1",
+        "func": "\nlet nombre = msg.payload;\n\nmsg.topic = \"INSERT INTO personas (nombre) VALUES ('\" + nombre + \"');\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "7790b501363601da"
+            ]
+        ]
+    },
+    {
+        "id": "5124acd11f57912e",
+        "type": "mongodb4",
+        "z": "9f22afbc27130ab3",
+        "clientNode": "7f9248c5ea5c7716",
+        "mode": "collection",
+        "collection": "personas",
+        "operation": "insertOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 580,
+        "y": 440,
+        "wires": [
+            [
+                "520ef8f3cb67b090"
+            ]
+        ]
+    },
+    {
+        "id": "780a8da2fb5d237e",
+        "type": "inject",
+        "z": "9f22afbc27130ab3",
+        "name": "Interaccion con mongo insertOne",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": " {      \"mensaje\": \"Hola \",      \"Nombre\": \"Jhon\",      \"Apellido\": \"Messi \", \"edad\" : 21 } ",
+        "payloadType": "json",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "5124acd11f57912e"
+            ]
+        ]
+    },
+    {
+        "id": "cea42a72e30f9e9f",
+        "type": "inject",
+        "z": "9f22afbc27130ab3",
+        "name": "consultar personas",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "5124acd11f57912e"
+            ]
+        ]
+    },
+    {
+        "id": "b1448ce28d5c2cfc",
+        "type": "inject",
+        "z": "9f22afbc27130ab3",
+        "name": "Buscar apellidos",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{     \"Apellido\": \"Bidone\" }",
+        "payloadType": "json",
+        "x": 140,
+        "y": 660,
+        "wires": [
+            [
+                "5124acd11f57912e"
+            ]
+        ]
+    },
+    {
+        "id": "15b8e507ec818d78",
+        "type": "mqtt in",
+        "z": "bf22383c58f8f23f",
+        "name": "out",
+        "topic": "casa/+/habitacion1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3bdabe9eb9d7a7f5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "4a56b03ae3a24ef1"
+            ]
+        ]
+    },
+    {
+        "id": "302faf29a37bf861",
+        "type": "mqtt out",
+        "z": "bf22383c58f8f23f",
+        "name": "In",
+        "topic": "test",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 450,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4a56b03ae3a24ef1",
+        "type": "debug",
+        "z": "bf22383c58f8f23f",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8f1865dc7b4f1a3c",
+        "type": "inject",
+        "z": "bf22383c58f8f23f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "302faf29a37bf861"
+            ]
+        ]
+    },
+    {
+        "id": "7c414e8de9ab254c",
+        "type": "mqtt out",
+        "z": "bf22383c58f8f23f",
+        "name": "In",
+        "topic": "casa/plantaAlta/habitacion1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 430,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3a4c870771c4d9de",
+        "type": "inject",
+        "z": "bf22383c58f8f23f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 460,
+        "wires": [
+            [
+                "7c414e8de9ab254c"
+            ]
+        ]
+    },
+    {
+        "id": "256d900d25f0f032",
+        "type": "mqtt out",
+        "z": "bf22383c58f8f23f",
+        "name": "In",
+        "topic": "casa/plantaBaja/cocina",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 430,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "479cc3b8be34fc18",
+        "type": "inject",
+        "z": "bf22383c58f8f23f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 580,
+        "wires": [
+            [
+                "256d900d25f0f032"
+            ]
+        ]
+    },
+    {
+        "id": "089ad7a6cda1575a",
+        "type": "mqtt out",
+        "z": "bf22383c58f8f23f",
+        "name": "In",
+        "topic": "casa/plantaAlta/habitacion2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 470,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "728b250afb824b2b",
+        "type": "inject",
+        "z": "bf22383c58f8f23f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 680,
+        "wires": [
+            [
+                "089ad7a6cda1575a"
+            ]
+        ]
+    },
+    {
+        "id": "c32ab5bd7b3d8a97",
+        "type": "http in",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "url": "/basico",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "b7e7acf05ce60d12"
+            ]
+        ]
+    },
+    {
+        "id": "945511f159c6230d",
+        "type": "http response",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "text/html"
+        },
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b7e7acf05ce60d12",
+        "type": "change",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "iso",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 160,
+        "wires": [
+            [
+                "571a97e298dfa74c"
+            ]
+        ]
+    },
+    {
+        "id": "571a97e298dfa74c",
+        "type": "template",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "This is the payload: {{payload}} !\n<html>\n    <title> Hola SOA!! </title>\n    <h1> La fecha de hoy es {{payload}}!!! </h1>\n</html>",
+        "output": "str",
+        "x": 680,
+        "y": 160,
+        "wires": [
+            [
+                "945511f159c6230d"
+            ]
+        ]
+    },
+    {
+        "id": "0b2d56f5115c29eb",
+        "type": "http in",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "url": "/maso",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 320,
+        "wires": [
+            [
+                "81c669d974e9bab1"
+            ]
+        ]
+    },
+    {
+        "id": "81c669d974e9bab1",
+        "type": "template",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n<html>\n    <title> Hola SOA!! </title>\n    <body>\n        <h3> Hola <strong>{{req.query.nombre}}</strong> </h3>\n        <h4>Tu color favorito es {{req.query.color}} </h4>\n    </body>\n</html>",
+        "output": "str",
+        "x": 420,
+        "y": 320,
+        "wires": [
+            [
+                "5d0a2911d7d0f1c2"
+            ]
+        ]
+    },
+    {
+        "id": "5d0a2911d7d0f1c2",
+        "type": "http response",
+        "z": "0b64627c1d570abc",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "dc8d73d5438ac1b4",
+        "type": "http in",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "url": "/personas",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "7e64acf6367c6431"
+            ]
+        ]
+    },
+    {
+        "id": "9d2a9ba725b424f1",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 490,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "037ae044a7fd8385",
+        "type": "mysql",
+        "z": "80716a0201809318",
+        "g": "47e7d3c1bb3dc1b3",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 295,
+        "y": 60,
+        "wires": [
+            [
+                "c1e4ebb42bc077f9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c1e4ebb42bc077f9",
+        "type": "debug",
+        "z": "80716a0201809318",
+        "g": "47e7d3c1bb3dc1b3",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a3ac35b83778976d",
+        "type": "template",
+        "z": "80716a0201809318",
+        "g": "47e7d3c1bb3dc1b3",
+        "name": "DDL Inicial",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "CREATE DATABASE IF NOT EXISTS db1 CHARACTER SET utf8;\nCREATE TABLE IF NOT EXISTS db1.personas (\n    id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,\n    nombre VARCHAR(50) NOT NULL,\n    apellido VARCHAR(50) NOT NULL,\n    email VARCHAR(200) NOT NULL UNIQUE,\n    fecha_nacimiento DATE);",
+        "output": "str",
+        "x": 190,
+        "y": 60,
+        "wires": [
+            [
+                "037ae044a7fd8385"
+            ]
+        ]
+    },
+    {
+        "id": "e986adf2b7192b9c",
+        "type": "inject",
+        "z": "80716a0201809318",
+        "g": "47e7d3c1bb3dc1b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 85,
+        "y": 60,
+        "wires": [
+            [
+                "a3ac35b83778976d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7e64acf6367c6431",
+        "type": "template",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "List",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT * FROM db1.personas ORDER BY apellido, nombre;",
+        "output": "str",
+        "x": 290,
+        "y": 320,
+        "wires": [
+            [
+                "1ba519bbfac619d5"
+            ]
+        ]
+    },
+    {
+        "id": "1ba519bbfac619d5",
+        "type": "mysql",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "mydb": "094c7d355a93548d",
+        "name": "DB List",
+        "x": 385,
+        "y": 320,
+        "wires": [
+            [
+                "9d2a9ba725b424f1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "32538f8877f3e0cc",
+        "type": "catch",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "scope": [
+            "1ba519bbfac619d5",
+            "a0ab35d7e5621a82",
+            "72d342a63c57074a",
+            "c65eac828b106427",
+            "7f646cf38b6e0ae6"
+        ],
+        "uncaught": false,
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "2f1434d71003b99a"
+            ]
+        ]
+    },
+    {
+        "id": "067e7142b372d24f",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "500",
+        "headers": {},
+        "x": 360,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2f1434d71003b99a",
+        "type": "change",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "error.message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 255,
+        "y": 200,
+        "wires": [
+            [
+                "067e7142b372d24f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cb354415256fd345",
+        "type": "http in",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "url": "/personas/:id",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "fe3fc3c990623c81"
+            ]
+        ]
+    },
+    {
+        "id": "9c54fbc65fd75990",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "fe3fc3c990623c81",
+        "type": "template",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "Get",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT * FROM db1.personas WHERE id={{req.params.id}};",
+        "output": "str",
+        "x": 330,
+        "y": 400,
+        "wires": [
+            [
+                "a0ab35d7e5621a82"
+            ]
+        ]
+    },
+    {
+        "id": "a0ab35d7e5621a82",
+        "type": "mysql",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "mydb": "094c7d355a93548d",
+        "name": "DB Get",
+        "x": 435,
+        "y": 400,
+        "wires": [
+            [
+                "c774c8c77721e919"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ec1b69c338411c84",
+        "type": "change",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 565,
+        "y": 400,
+        "wires": [
+            [
+                "9c54fbc65fd75990"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c774c8c77721e919",
+        "type": "switch",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "property": "payload.length",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 495,
+        "y": 400,
+        "wires": [
+            [
+                "ec1b69c338411c84"
+            ],
+            [
+                "3392117b9e224d8c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "49f20dd618dc26ab",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "404",
+        "headers": {},
+        "x": 440,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d42f58886f171c5c",
+        "type": "change",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 355,
+        "y": 260,
+        "wires": [
+            [
+                "49f20dd618dc26ab"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1f48cc9d95095ec4",
+        "type": "link in",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "IN 404",
+        "links": [
+            "3392117b9e224d8c",
+            "b75aa4bf71ae7f28",
+            "7f5a65619af904ec"
+        ],
+        "x": 305,
+        "y": 260,
+        "wires": [
+            [
+                "d42f58886f171c5c"
+            ]
+        ]
+    },
+    {
+        "id": "3392117b9e224d8c",
+        "type": "link out",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "1f48cc9d95095ec4"
+        ],
+        "x": 565,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "fdb7f9954b9bdd87",
+        "type": "http in",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "url": "/personas",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "2386cfcdb8d3db4c"
+            ]
+        ]
+    },
+    {
+        "id": "221efc1bb79e2176",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "201",
+        "headers": {},
+        "x": 780,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2386cfcdb8d3db4c",
+        "type": "template",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "Insert",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "INSERT INTO db1.personas \n(nombre,apellido,email,fecha_nacimiento) \nVALUES \n(:nombre,:apellido,:email,:fecha_nacimiento);",
+        "output": "str",
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "72d342a63c57074a"
+            ]
+        ]
+    },
+    {
+        "id": "72d342a63c57074a",
+        "type": "mysql",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "mydb": "094c7d355a93548d",
+        "name": "DB Insert",
+        "x": 415,
+        "y": 500,
+        "wires": [
+            [
+                "06f4a0afc76d27af"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "06f4a0afc76d27af",
+        "type": "change",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "'/personas/' & payload.insertId",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 500,
+        "wires": [
+            [
+                "c0b3f1e969d9f6ad"
+            ]
+        ]
+    },
+    {
+        "id": "c0b3f1e969d9f6ad",
+        "type": "change",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 675,
+        "y": 500,
+        "wires": [
+            [
+                "221efc1bb79e2176"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "89ef6529a4ea95e7",
+        "type": "http in",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "url": "/personas",
+        "method": "put",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 580,
+        "wires": [
+            [
+                "ea36255f7badd6aa"
+            ]
+        ]
+    },
+    {
+        "id": "db2a4c772a9d07ca",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "ea36255f7badd6aa",
+        "type": "template",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "Update",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "UPDATE db1.personas SET\nnombre=:nombre,\napellido=:apellido,\nemail=:email,\nfecha_nacimiento=:fecha_nacimiento\nWHERE id=:id;",
+        "output": "str",
+        "x": 320,
+        "y": 580,
+        "wires": [
+            [
+                "c65eac828b106427"
+            ]
+        ]
+    },
+    {
+        "id": "c65eac828b106427",
+        "type": "mysql",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "mydb": "094c7d355a93548d",
+        "name": "DB Update",
+        "x": 415,
+        "y": 580,
+        "wires": [
+            [
+                "40b7cdb96e4002e4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "40b7cdb96e4002e4",
+        "type": "switch",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "property": "payload.affectedRows",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 495,
+        "y": 580,
+        "wires": [
+            [
+                "db2a4c772a9d07ca"
+            ],
+            [
+                "b75aa4bf71ae7f28"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b75aa4bf71ae7f28",
+        "type": "link out",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "1f48cc9d95095ec4"
+        ],
+        "x": 555,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "197e68a27bb41c45",
+        "type": "http in",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "url": "/personas/:id",
+        "method": "delete",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 680,
+        "wires": [
+            [
+                "e41980b83af4095c"
+            ]
+        ]
+    },
+    {
+        "id": "cb483c6357917e94",
+        "type": "http response",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "e41980b83af4095c",
+        "type": "template",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "Delete",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "DELETE FROM db1.personas WHERE id={{req.params.id}};",
+        "output": "str",
+        "x": 330,
+        "y": 680,
+        "wires": [
+            [
+                "7f646cf38b6e0ae6"
+            ]
+        ]
+    },
+    {
+        "id": "7f646cf38b6e0ae6",
+        "type": "mysql",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "mydb": "094c7d355a93548d",
+        "name": "DB Delete",
+        "x": 435,
+        "y": 680,
+        "wires": [
+            [
+                "696cd78fce69f924"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6fc88559f196f2a9",
+        "type": "change",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 565,
+        "y": 680,
+        "wires": [
+            [
+                "cb483c6357917e94"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "696cd78fce69f924",
+        "type": "switch",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "",
+        "property": "payload.affectedRows",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 495,
+        "y": 680,
+        "wires": [
+            [
+                "6fc88559f196f2a9"
+            ],
+            [
+                "7f5a65619af904ec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7f5a65619af904ec",
+        "type": "link out",
+        "z": "80716a0201809318",
+        "g": "df035ab8e917e269",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "1f48cc9d95095ec4"
+        ],
+        "x": 565,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "ed73f8892a43a268",
+        "type": "http request",
+        "z": "80716a0201809318",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/personas",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 390,
+        "y": 880,
+        "wires": [
+            [
+                "5b6b8d8ac487915c"
+            ]
+        ]
+    },
+    {
+        "id": "5b6b8d8ac487915c",
+        "type": "switch",
+        "z": "80716a0201809318",
+        "name": "201?",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "201",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 880,
+        "wires": [
+            [
+                "678244d2784c56d7",
+                "250a766b0e31cff6"
+            ]
+        ]
+    },
+    {
+        "id": "678244d2784c56d7",
+        "type": "link out",
+        "z": "80716a0201809318",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "ad8f28a1eb6fcb9c"
+        ],
+        "x": 635,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "6769a9b00078a404",
+        "type": "http request",
+        "z": "80716a0201809318",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/personas",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 270,
+        "y": 980,
+        "wires": [
+            [
+                "eb7dcbba470ad424"
+            ]
+        ]
+    },
+    {
+        "id": "d2575ea53c8bbd53",
+        "type": "inject",
+        "z": "80716a0201809318",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 145,
+        "y": 1020,
+        "wires": [
+            [
+                "6769a9b00078a404"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ad8f28a1eb6fcb9c",
+        "type": "link in",
+        "z": "80716a0201809318",
+        "name": "Refrescar Listado",
+        "links": [
+            "678244d2784c56d7",
+            "9a0f95b9c214bdbb"
+        ],
+        "x": 145,
+        "y": 940,
+        "wires": [
+            [
+                "6769a9b00078a404"
+            ]
+        ]
+    },
+    {
+        "id": "f44c5b9f11050a95",
+        "type": "debug",
+        "z": "80716a0201809318",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "54c843f0673d5357",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.nombre",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 1060,
+        "wires": [
+            [
+                "3e925b7d459b141d"
+            ]
+        ]
+    },
+    {
+        "id": "9a723dbc59b79a23",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.apellido",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 1120,
+        "wires": [
+            [
+                "334e8ee2e53336aa"
+            ]
+        ]
+    },
+    {
+        "id": "e32e2635e040272e",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.email",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 1180,
+        "wires": [
+            [
+                "a1327b7395da9b93"
+            ]
+        ]
+    },
+    {
+        "id": "39773a75a8d9372c",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.fecha_nacimiento",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 1280,
+        "wires": [
+            [
+                "9e148e06c2173237"
+            ]
+        ]
+    },
+    {
+        "id": "807976af80d68c9a",
+        "type": "debug",
+        "z": "80716a0201809318",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9e148e06c2173237",
+        "type": "function",
+        "z": "80716a0201809318",
+        "name": "function 1",
+        "func": "msg.payload=msg.payload.split(\"T\")[0]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1280,
+        "wires": [
+            [
+                "5e61a9ec99b5fc34"
+            ]
+        ]
+    },
+    {
+        "id": "250a766b0e31cff6",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Se agregó con éxito!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 840,
+        "wires": [
+            [
+                "52126f3fd1ef6dc5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "414b632aeaeaa386",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "personaSeleccionada",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 335,
+        "y": 1060,
+        "wires": [
+            [
+                "54c843f0673d5357",
+                "9a723dbc59b79a23",
+                "e32e2635e040272e",
+                "39773a75a8d9372c",
+                "9d064364e3e83177",
+                "db9ef10b2fcabc7e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4045dfd0d35ca05d",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "personaSeleccionada.nombre",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8bcd79a2f6d3e71",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "personaSeleccionada.apellido",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1139fea14f49f761",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "personaSeleccionada.email",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "beb2da1f9d4028e0",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "personaSeleccionada.fecha_nacimiento",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9792b88e8a613c7c",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "personaSeleccionada",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1380,
+        "wires": [
+            [
+                "f9f254c4837cb94e"
+            ]
+        ]
+    },
+    {
+        "id": "f9f254c4837cb94e",
+        "type": "http request",
+        "z": "80716a0201809318",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/personas",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1150,
+        "y": 1380,
+        "wires": [
+            [
+                "8dd2ade141e8adf7"
+            ]
+        ]
+    },
+    {
+        "id": "81eacd2be1b03cd7",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Modificad con éxito!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1475,
+        "y": 1380,
+        "wires": [
+            [
+                "979082467e37c023"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8dd2ade141e8adf7",
+        "type": "switch",
+        "z": "80716a0201809318",
+        "name": "200?",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1310,
+        "y": 1380,
+        "wires": [
+            [
+                "81eacd2be1b03cd7",
+                "9a0f95b9c214bdbb"
+            ]
+        ]
+    },
+    {
+        "id": "9a0f95b9c214bdbb",
+        "type": "link out",
+        "z": "80716a0201809318",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [
+            "ad8f28a1eb6fcb9c"
+        ],
+        "x": 1395,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "c9384d073e1114d1",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 215,
+        "y": 1220,
+        "wires": [
+            [
+                "54c843f0673d5357",
+                "9a723dbc59b79a23",
+                "e32e2635e040272e",
+                "39773a75a8d9372c",
+                "9d064364e3e83177"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "16c56c8b7ac9d783",
+        "type": "inject",
+        "z": "80716a0201809318",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 155,
+        "y": 1160,
+        "wires": [
+            [
+                "c9384d073e1114d1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3075c276fe86d934",
+        "type": "ui-button",
+        "z": "80716a0201809318",
+        "group": "7f46fde876ff3054",
+        "name": "",
+        "label": "Refrescar",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "elevation-4 bg-success",
+        "icon": "gesture-tap",
+        "iconPosition": "right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 80,
+        "y": 980,
+        "wires": [
+            [
+                "6769a9b00078a404"
+            ]
+        ]
+    },
+    {
+        "id": "9d064364e3e83177",
+        "type": "ui-button",
+        "z": "80716a0201809318",
+        "group": "2c962ddbe4acb632",
+        "name": "",
+        "label": "Guardar",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 720,
+        "y": 1380,
+        "wires": [
+            [
+                "9792b88e8a613c7c",
+                "1b680f90d5955406"
+            ]
+        ]
+    },
+    {
+        "id": "3e925b7d459b141d",
+        "type": "ui-text-input",
+        "z": "80716a0201809318",
+        "group": "2c962ddbe4acb632",
+        "name": "",
+        "label": "Nombre",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 880,
+        "y": 1060,
+        "wires": [
+            [
+                "4045dfd0d35ca05d"
+            ]
+        ]
+    },
+    {
+        "id": "334e8ee2e53336aa",
+        "type": "ui-text-input",
+        "z": "80716a0201809318",
+        "group": "2c962ddbe4acb632",
+        "name": "",
+        "label": "Apellido",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 880,
+        "y": 1120,
+        "wires": [
+            [
+                "d8bcd79a2f6d3e71"
+            ]
+        ]
+    },
+    {
+        "id": "a1327b7395da9b93",
+        "type": "ui-text-input",
+        "z": "80716a0201809318",
+        "group": "2c962ddbe4acb632",
+        "name": "",
+        "label": "Email",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "email",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 870,
+        "y": 1180,
+        "wires": [
+            [
+                "1139fea14f49f761"
+            ]
+        ]
+    },
+    {
+        "id": "5e61a9ec99b5fc34",
+        "type": "ui-text-input",
+        "z": "80716a0201809318",
+        "group": "2c962ddbe4acb632",
+        "name": "",
+        "label": "Fecha Nacimiento",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "date",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 970,
+        "y": 1280,
+        "wires": [
+            [
+                "beb2da1f9d4028e0"
+            ]
+        ]
+    },
+    {
+        "id": "48e984014ba15b87",
+        "type": "ui-form",
+        "z": "80716a0201809318",
+        "name": "Agregar",
+        "group": "a023bced2b243c8e",
+        "label": "",
+        "order": 1,
+        "width": "6",
+        "height": "7",
+        "options": [
+            {
+                "label": "Nombre",
+                "key": "nombre",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Apellido",
+                "key": "apellido",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Email",
+                "key": "email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Fecha Nacimiento",
+                "key": "fecha_nacimiento",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "nombre": "",
+            "apellido": "",
+            "email": "",
+            "fecha_nacimiento": ""
+        },
+        "payload": "",
+        "submit": "Agregar",
+        "cancel": "Cancelar",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 240,
+        "y": 880,
+        "wires": [
+            [
+                "ed73f8892a43a268",
+                "807976af80d68c9a"
+            ]
+        ]
+    },
+    {
+        "id": "eb7dcbba470ad424",
+        "type": "ui-table",
+        "z": "80716a0201809318",
+        "group": "7f46fde876ff3054",
+        "name": "",
+        "label": "",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": false,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [
+            {
+                "title": "Nombre",
+                "key": "nombre",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Apellido",
+                "key": "apellido",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Email",
+                "key": "email",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Fecha Nacimiento",
+                "key": "fecha_nacimiento",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 430,
+        "y": 980,
+        "wires": [
+            [
+                "f44c5b9f11050a95",
+                "414b632aeaeaa386"
+            ]
+        ]
+    },
+    {
+        "id": "52126f3fd1ef6dc5",
+        "type": "ui-notification",
+        "z": "80716a0201809318",
+        "ui": "5dcfec28477adf55",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 800,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "979082467e37c023",
+        "type": "ui-notification",
+        "z": "80716a0201809318",
+        "ui": "5dcfec28477adf55",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 1620,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db9ef10b2fcabc7e",
+        "type": "ui-button",
+        "z": "80716a0201809318",
+        "group": "2c962ddbe4acb632",
+        "name": "",
+        "label": "Eliminar",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 720,
+        "y": 1440,
+        "wires": [
+            [
+                "d69e2e2b4cd67804"
+            ]
+        ]
+    },
+    {
+        "id": "d69e2e2b4cd67804",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "personaSeleccionada",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1440,
+        "wires": [
+            [
+                "8ac156080b1d0666"
+            ]
+        ]
+    },
+    {
+        "id": "8ac156080b1d0666",
+        "type": "http request",
+        "z": "80716a0201809318",
+        "name": "",
+        "method": "DELETE",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/personas/{{payload.id}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1130,
+        "y": 1440,
+        "wires": [
+            [
+                "53facb776e741f59",
+                "cc58459303261268",
+                "78dfbd106bb6186b"
+            ]
+        ]
+    },
+    {
+        "id": "53facb776e741f59",
+        "type": "switch",
+        "z": "80716a0201809318",
+        "name": "200?",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1310,
+        "y": 1440,
+        "wires": [
+            [
+                "9a0f95b9c214bdbb",
+                "601f433a54d0e8db"
+            ]
+        ]
+    },
+    {
+        "id": "601f433a54d0e8db",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Eliminado con exito",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1475,
+        "y": 1440,
+        "wires": [
+            [
+                "5e7e64c5d48ef809"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5e7e64c5d48ef809",
+        "type": "ui-notification",
+        "z": "80716a0201809318",
+        "ui": "5dcfec28477adf55",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 1620,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc58459303261268",
+        "type": "debug",
+        "z": "80716a0201809318",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "1b680f90d5955406",
+        "type": "debug",
+        "z": "80716a0201809318",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "4be01524b15cc455",
+        "type": "link in",
+        "z": "80716a0201809318",
+        "name": "Inicializar modificar",
+        "links": [],
+        "x": 115,
+        "y": 1220,
+        "wires": [
+            [
+                "c9384d073e1114d1"
+            ]
+        ]
+    },
+    {
+        "id": "78dfbd106bb6186b",
+        "type": "change",
+        "z": "80716a0201809318",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1600,
+        "wires": [
+            [
+                "3e925b7d459b141d",
+                "334e8ee2e53336aa",
+                "a1327b7395da9b93"
+            ]
+        ]
+    },
+    {
+        "id": "f1f55e4072f2f2f6",
+        "type": "inject",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "tomarfoto",
+        "payloadType": "str",
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "e9f61255dcece5af"
+            ]
+        ]
+    },
+    {
+        "id": "30b024b2ccb8c1d1",
+        "type": "mqtt out",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "topic": "command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 500,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "94cfa1266a52f507",
+        "type": "mqtt in",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "topic": "fototomada",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3bdabe9eb9d7a7f5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "fa7d14bb8c2768a5",
+                "aa6012daa6a98e12"
+            ]
+        ]
+    },
+    {
+        "id": "d27aaf1e9ca069a2",
+        "type": "debug",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "468e22ccd460b91e",
+        "type": "change",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "flow",
+                "to": "payload.chatId",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 285,
+        "y": 140,
+        "wires": [
+            [
+                "11e342bb758c1245"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0698754e61bf623b",
+        "type": "link in",
+        "z": "d11188680478243f",
+        "name": "Telegram Sender",
+        "links": [
+            "5293f50ab1fc7efd",
+            "c4e4ae2987c70f5c",
+            "4c1c277cd49ed119",
+            "aebe08ed396f31cd",
+            "fd28e52ebbd4bc69",
+            "306d2479da55af77",
+            "f2eb92d64605b1ec"
+        ],
+        "x": 855,
+        "y": 160,
+        "wires": [
+            [
+                "904fe8c259e55714"
+            ]
+        ]
+    },
+    {
+        "id": "5293f50ab1fc7efd",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 545,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "11e342bb758c1245",
+        "type": "function",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "Aguarde...",
+        "func": "msg.payload={\n    content:\"Aguarde...\",\n    chatId:flow.get(\"chatId\"),\n    type:\"message\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "5293f50ab1fc7efd"
+            ]
+        ]
+    },
+    {
+        "id": "09e7d7180a51123b",
+        "type": "function",
+        "z": "d11188680478243f",
+        "name": "Ayuda",
+        "func": "msg.payload={\n    content:\"Tome una foto con /tomarfoto\",\n    chatId:flow.get(\"chatId\"),\n    type:\"message\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 60,
+        "wires": [
+            [
+                "c4e4ae2987c70f5c"
+            ]
+        ]
+    },
+    {
+        "id": "c4e4ae2987c70f5c",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 1035,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "336f36372e2cfb5b",
+        "type": "link in",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "Tomar foto real",
+        "links": [
+            "5339578467da4c4f"
+        ],
+        "x": 445,
+        "y": 380,
+        "wires": [
+            [
+                "e9f61255dcece5af"
+            ]
+        ]
+    },
+    {
+        "id": "5339578467da4c4f",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "336f36372e2cfb5b"
+        ],
+        "x": 295,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e9f61255dcece5af",
+        "type": "change",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "tomarfoto",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 315,
+        "y": 460,
+        "wires": [
+            [
+                "30b024b2ccb8c1d1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "aa6012daa6a98e12",
+        "type": "file",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "filename": "/tmp/imagen.jpg",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 320,
+        "y": 320,
+        "wires": [
+            [
+                "529b03012a932099"
+            ]
+        ]
+    },
+    {
+        "id": "529b03012a932099",
+        "type": "delay",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 455,
+        "y": 320,
+        "wires": [
+            [
+                "c03af7ae987673db"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4c1c277cd49ed119",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "link out 11",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 675,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c03af7ae987673db",
+        "type": "function",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "Aguarde...",
+        "func": "msg.payload={\n    content:\"/tmp/imagen.jpg\",\n    chatId:flow.get(\"chatId\"),\n    type:\"photo\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 320,
+        "wires": [
+            [
+                "4c1c277cd49ed119"
+            ]
+        ]
+    },
+    {
+        "id": "c0632817b7242764",
+        "type": "debug",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "712f827d3768ec5a",
+        "type": "change",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "flow",
+                "to": "payload.chatId",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 285,
+        "y": 680,
+        "wires": [
+            [
+                "993142c21392ef4c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "aebe08ed396f31cd",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "link out 12",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 545,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "993142c21392ef4c",
+        "type": "function",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "Aguarde...",
+        "func": "msg.payload={\n    content:\"Aguarde, simulando foto...\",\n    chatId:flow.get(\"chatId\"),\n    type:\"message\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "aebe08ed396f31cd"
+            ]
+        ]
+    },
+    {
+        "id": "be10b60321b20b1e",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "link out 13",
+        "mode": "link",
+        "links": [
+            "2135fe8f487e72ce"
+        ],
+        "x": 295,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "915d7a325fe8d38a",
+        "type": "inject",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "tomarfotosimulada",
+        "payloadType": "str",
+        "x": 150,
+        "y": 900,
+        "wires": [
+            [
+                "6407a909c9eb8b7c"
+            ]
+        ]
+    },
+    {
+        "id": "b2c001674c299e88",
+        "type": "mqtt out",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "topic": "command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 498.1666717529297,
+        "y": 949.1666870117188,
+        "wires": []
+    },
+    {
+        "id": "2135fe8f487e72ce",
+        "type": "link in",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "Tomar foto simulada",
+        "links": [
+            "be10b60321b20b1e"
+        ],
+        "x": 398.1666717529297,
+        "y": 869.1666870117188,
+        "wires": [
+            [
+                "6407a909c9eb8b7c"
+            ]
+        ]
+    },
+    {
+        "id": "6407a909c9eb8b7c",
+        "type": "change",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "tomarfotosimulada",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 335,
+        "y": 960,
+        "wires": [
+            [
+                "b2c001674c299e88"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eb647e8a3d025a44",
+        "type": "mqtt in",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "topic": "fotosimulada",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3bdabe9eb9d7a7f5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 1100,
+        "wires": [
+            [
+                "dc22a67cc95b0276",
+                "4f368ed0dc3a2118",
+                "145c3fe25ce1c946"
+            ]
+        ]
+    },
+    {
+        "id": "ad48578f9b36ce04",
+        "type": "delay",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 395,
+        "y": 1060,
+        "wires": [
+            [
+                "d6904d6cfab42468"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d6904d6cfab42468",
+        "type": "function",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "Aguarde...",
+        "func": "msg.payload={\n    content:\"/tmp/imagen-simulada.jpg\",\n    chatId:flow.get(\"chatId\"),\n    type:\"photo\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1060,
+        "wires": [
+            [
+                "fd28e52ebbd4bc69"
+            ]
+        ]
+    },
+    {
+        "id": "fd28e52ebbd4bc69",
+        "type": "link out",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "link out 14",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 615,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "4f368ed0dc3a2118",
+        "type": "file",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "filename": "/tmp/imagen-simulada.jpg",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 270,
+        "y": 1180,
+        "wires": [
+            [
+                "ad48578f9b36ce04",
+                "0fe6edf70a255ab1"
+            ]
+        ]
+    },
+    {
+        "id": "0fe6edf70a255ab1",
+        "type": "debug",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "145c3fe25ce1c946",
+        "type": "debug",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 240,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "fa7d14bb8c2768a5",
+        "type": "image viewer",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "width": "300",
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 770,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc22a67cc95b0276",
+        "type": "image viewer",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "width": "300",
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 610,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1d1350342b04d83",
+        "type": "telegram command",
+        "z": "d11188680478243f",
+        "g": "ed41f7b3505e1b19",
+        "name": "",
+        "command": "/tomarfoto",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "9ff3d0469784da19",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "d27aaf1e9ca069a2",
+                "468e22ccd460b91e",
+                "5339578467da4c4f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d4b19de1c326a5e3",
+        "type": "telegram command",
+        "z": "d11188680478243f",
+        "name": "",
+        "command": "/ayuda",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "9ff3d0469784da19",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 40,
+        "wires": [
+            [
+                "09e7d7180a51123b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "734a727c8109a6d7",
+        "type": "telegram command",
+        "z": "d11188680478243f",
+        "g": "b84554758820b972",
+        "name": "",
+        "command": "/tomarfotosimulada",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "9ff3d0469784da19",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 130,
+        "y": 740,
+        "wires": [
+            [
+                "c0632817b7242764",
+                "712f827d3768ec5a",
+                "be10b60321b20b1e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "904fe8c259e55714",
+        "type": "telegram sender",
+        "z": "d11188680478243f",
+        "name": "",
+        "bot": "9ff3d0469784da19",
+        "haserroroutput": true,
+        "outputs": 2,
+        "x": 990,
+        "y": 160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "28f244213e7964be",
+        "type": "mqtt in",
+        "z": "a5499f60132d0339",
+        "name": "",
+        "topic": "command",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3bdabe9eb9d7a7f5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 240,
+        "wires": [
+            [
+                "174f5b7c74607695"
+            ]
+        ]
+    },
+    {
+        "id": "0d81a1d041085799",
+        "type": "mqtt out",
+        "z": "a5499f60132d0339",
+        "g": "b413a09bde891c47",
+        "name": "",
+        "topic": "fototomada",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 1130,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "174f5b7c74607695",
+        "type": "switch",
+        "z": "a5499f60132d0339",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "tomarfoto",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "tomarfotosimulada",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "5e967cc0971af554"
+            ],
+            [
+                "768ab37168cf911c"
+            ]
+        ]
+    },
+    {
+        "id": "5e967cc0971af554",
+        "type": "function",
+        "z": "a5499f60132d0339",
+        "g": "b413a09bde891c47",
+        "name": "function 2",
+        "func": "const num= Math.floor(Math.random()*1000000000);\nmsg.filename=`/tmp/${num}.jpg`;\nmsg.payload=`-y -f v4l2 -ss 1 -i /dev/video0 -frames:v 1 -update 1 ${msg.filename}`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 240,
+        "wires": [
+            [
+                "b7feacb02f691021"
+            ]
+        ]
+    },
+    {
+        "id": "b7feacb02f691021",
+        "type": "exec",
+        "z": "a5499f60132d0339",
+        "g": "b413a09bde891c47",
+        "command": "ffmpeg",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "10",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 730,
+        "y": 240,
+        "wires": [
+            [
+                "a5405305c990d6cd"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a5405305c990d6cd",
+        "type": "file in",
+        "z": "a5499f60132d0339",
+        "g": "b413a09bde891c47",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 930,
+        "y": 220,
+        "wires": [
+            [
+                "0d81a1d041085799"
+            ]
+        ]
+    },
+    {
+        "id": "b35fc7c6e831b2fb",
+        "type": "debug",
+        "z": "a5499f60132d0339",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "883f5d897fda8029",
+        "type": "mqtt in",
+        "z": "a5499f60132d0339",
+        "name": "",
+        "topic": "fototomada",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3bdabe9eb9d7a7f5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 460,
+        "wires": [
+            [
+                "b35fc7c6e831b2fb"
+            ]
+        ]
+    },
+    {
+        "id": "768ab37168cf911c",
+        "type": "http request",
+        "z": "a5499f60132d0339",
+        "g": "feb954ecbeabf31f",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://randomuser.me/api",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 570,
+        "y": 380,
+        "wires": [
+            [
+                "eac1dc3f4e574bc4"
+            ]
+        ]
+    },
+    {
+        "id": "eac1dc3f4e574bc4",
+        "type": "function",
+        "z": "a5499f60132d0339",
+        "g": "feb954ecbeabf31f",
+        "name": "function 3",
+        "func": "msg.url = msg.payload.results[0].picture.large;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 380,
+        "wires": [
+            [
+                "a0e594f6688fdfe6",
+                "17e592dae890f5a2"
+            ]
+        ]
+    },
+    {
+        "id": "a0e594f6688fdfe6",
+        "type": "debug",
+        "z": "a5499f60132d0339",
+        "g": "feb954ecbeabf31f",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b7eda8c1860dd042",
+        "type": "mqtt out",
+        "z": "a5499f60132d0339",
+        "g": "feb954ecbeabf31f",
+        "name": "",
+        "topic": "fotosimulada",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 1150,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "17e592dae890f5a2",
+        "type": "http request",
+        "z": "a5499f60132d0339",
+        "g": "feb954ecbeabf31f",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 830,
+        "y": 440,
+        "wires": [
+            [
+                "f1ddb9fdb39d6e64",
+                "b7eda8c1860dd042"
+            ]
+        ]
+    },
+    {
+        "id": "f1ddb9fdb39d6e64",
+        "type": "image viewer",
+        "z": "a5499f60132d0339",
+        "g": "feb954ecbeabf31f",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 850,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8f2ddd23730a280",
+        "type": "inject",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "tomarfoto",
+        "payloadType": "str",
+        "x": 220,
+        "y": 460,
+        "wires": [
+            [
+                "ae37bf6a62a46780"
+            ]
+        ]
+    },
+    {
+        "id": "c24858bbe29d63f0",
+        "type": "mqtt out",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "topic": "command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3bdabe9eb9d7a7f5",
+        "x": 580,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "78a434623465c3bc",
+        "type": "mqtt in",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "topic": "fototomada",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3bdabe9eb9d7a7f5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "adaf1fe79f107ee1",
+                "9421d9a299acce76"
+            ]
+        ]
+    },
+    {
+        "id": "adaf1fe79f107ee1",
+        "type": "image viewer",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "width": "300",
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 850,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf411a0789efaa81",
+        "type": "telegram command",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "command": "/nota",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "9ff3d0469784da19",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "6c8f94c0d10b5152",
+                "0245a1ead7289d7f",
+                "ff5c104a09beea38"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6c8f94c0d10b5152",
+        "type": "debug",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0245a1ead7289d7f",
+        "type": "change",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "flow",
+                "to": "payload.chatId",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 365,
+        "y": 180,
+        "wires": [
+            [
+                "4cda101873bbc6e0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "306d2479da55af77",
+        "type": "link out",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 625,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4cda101873bbc6e0",
+        "type": "function",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "Aguarde...",
+        "func": "msg.payload={\n    content:\"Aguarde...\",\n    chatId:flow.get(\"chatId\"),\n    type:\"message\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "306d2479da55af77"
+            ]
+        ]
+    },
+    {
+        "id": "acda526950d1203b",
+        "type": "link in",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "Tomar foto real",
+        "links": [
+            "ff5c104a09beea38"
+        ],
+        "x": 525,
+        "y": 420,
+        "wires": [
+            [
+                "ae37bf6a62a46780"
+            ]
+        ]
+    },
+    {
+        "id": "ff5c104a09beea38",
+        "type": "link out",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "acda526950d1203b"
+        ],
+        "x": 375,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ae37bf6a62a46780",
+        "type": "change",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "tomarfoto",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 395,
+        "y": 500,
+        "wires": [
+            [
+                "c24858bbe29d63f0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9421d9a299acce76",
+        "type": "file",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "filename": "/tmp/imagen.jpg",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 400,
+        "y": 360,
+        "wires": [
+            [
+                "05a9c6ba89327479"
+            ]
+        ]
+    },
+    {
+        "id": "05a9c6ba89327479",
+        "type": "delay",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 535,
+        "y": 360,
+        "wires": [
+            [
+                "3535dddb4c1b01dd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f2eb92d64605b1ec",
+        "type": "link out",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "0698754e61bf623b"
+        ],
+        "x": 755,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "3535dddb4c1b01dd",
+        "type": "function",
+        "z": "a73b2a3213339cef",
+        "g": "d6f38bd690f8e0b2",
+        "name": "Aguarde...",
+        "func": "msg.payload={\n    content:\"/tmp/imagen.jpg\",\n    chatId:flow.get(\"chatId\"),\n    type:\"photo\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 360,
+        "wires": [
+            [
+                "f2eb92d64605b1ec"
+            ]
+        ]
+    },
+    {
+        "id": "735105bb97815d10",
+        "type": "mysql",
+        "z": "4d2b797f1a99d255",
+        "g": "514cfc2f210bc774",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 355,
+        "y": 100,
+        "wires": [
+            [
+                "79c48aebb218528e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "79c48aebb218528e",
+        "type": "debug",
+        "z": "4d2b797f1a99d255",
+        "g": "514cfc2f210bc774",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c72799fb9051e77a",
+        "type": "template",
+        "z": "4d2b797f1a99d255",
+        "g": "514cfc2f210bc774",
+        "name": "DDL Inicial",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "CREATE DATABASE IF NOT EXISTS trabajo_integrador_soa CHARACTER SET utf8;\nCREATE TABLE IF NOT EXISTS trabajo_integrador_soa.personas (\n    personId VARCHAR(150) NOT NULL PRIMARY KEY,\n    nombre VARCHAR(50) NOT NULL,\n    apellido VARCHAR(50) NOT NULL,\n    email VARCHAR(200) NOT NULL UNIQUE,\n    extra JSON);\n\nCREATE TABLE embeddings (\n  embeddingId  BINARY(16)   NOT NULL PRIMARY KEY,\n  personId     VARCHAR(150)  NOT NULL,\n  vector       TEXT         NOT NULL,\n  created_at   DATETIME     DEFAULT CURRENT_TIMESTAMP,\n  FOREIGN KEY (personId) REFERENCES personas(personId)\n)",
+        "output": "str",
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "735105bb97815d10"
+            ]
+        ]
+    },
+    {
+        "id": "bf66ccb3faf1580c",
+        "type": "inject",
+        "z": "4d2b797f1a99d255",
+        "g": "514cfc2f210bc774",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 145,
+        "y": 100,
+        "wires": [
+            [
+                "c72799fb9051e77a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6cd325f17983e3d0",
+        "type": "http in",
+        "z": "4d2b797f1a99d255",
+        "g": "6d37df6cdcf81080",
+        "name": "",
+        "url": "/personas",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "e5eb93bd0826ebb9"
+            ]
+        ]
+    },
+    {
+        "id": "1683785d2d7d3384",
+        "type": "http response",
+        "z": "4d2b797f1a99d255",
+        "g": "6d37df6cdcf81080",
+        "name": "",
+        "statusCode": "201",
+        "headers": {},
+        "x": 780,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "af7ff35c41195d6f",
+        "type": "mysql",
+        "z": "4d2b797f1a99d255",
+        "g": "6d37df6cdcf81080",
+        "mydb": "094c7d355a93548d",
+        "name": "DB Insert",
+        "x": 415,
+        "y": 220,
+        "wires": [
+            [
+                "0302fdb029a6eb1e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0302fdb029a6eb1e",
+        "type": "change",
+        "z": "4d2b797f1a99d255",
+        "g": "6d37df6cdcf81080",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "'/personas/' & payload.insertId",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 220,
+        "wires": [
+            [
+                "dacc1cde555ac852"
+            ]
+        ]
+    },
+    {
+        "id": "dacc1cde555ac852",
+        "type": "change",
+        "z": "4d2b797f1a99d255",
+        "g": "6d37df6cdcf81080",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 675,
+        "y": 220,
+        "wires": [
+            [
+                "1683785d2d7d3384"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e5eb93bd0826ebb9",
+        "type": "function",
+        "z": "4d2b797f1a99d255",
+        "g": "6d37df6cdcf81080",
+        "name": "Insert",
+        "func": "// Validamos si existe el campo 'extra' en el payload que llega\nif (msg.payload.extra) {\n\n    // Si existe, preparamos la query con todos los campos\n    msg.payload.extra = JSON.stringify(msg.payload.extra)\n    msg.topic = `\n        INSERT INTO trabajo_integrador_soa.personas \n        (personId,nombre, apellido, email, extra)\n        VALUES (:personId,:nombre, :apellido, :email, :extra);\n    `;\n\n} else {\n\n   \n    // Preparamos la query omitiendo el campo 'extra'\n    msg.topic = `\n        INSERT INTO trabajo_integrador_soa.personas \n        (personId,nombre, apellido, email) \n        VALUES (:personId,:nombre, :apellido, :email);\n    `;\n}\n\n// Retornamos el mensaje para que pase al nodo MySQL\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 220,
+        "wires": [
+            [
+                "af7ff35c41195d6f"
+            ]
+        ]
+    },
+    {
+        "id": "f8018253afe0fa34",
+        "type": "catch",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 850,
+        "y": 60,
+        "wires": [
+            [
+                "db7f09544841d1ec"
+            ]
+        ]
+    },
+    {
+        "id": "00d9c2e813954e15",
+        "type": "http response",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1110,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "db7f09544841d1ec",
+        "type": "function",
+        "z": "4d2b797f1a99d255",
+        "name": "function 5",
+        "func": "// El nodo catch guarda los detalles en msg.error\nconst errorDetalle = msg.error;\n\n// Creamos la estructura JSON que queremos devolver\nmsg.payload = {\n    ok: false,\n    error: {\n        mensaje: errorDetalle.message,         // El texto del error (ej: \"SQL syntax error\")\n        nodo_id: errorDetalle.source.id,       // El ID del nodo que falló\n        nodo_nombre: errorDetalle.source.name  // El nombre del nodo que falló\n    }\n};\n\n// Opcional: Si es una API HTTP, definimos un código de estado 500 (Server Error)\nmsg.statusCode = 500;\n\n// Node-RED convierte automáticamente los objetos de msg.payload a JSON si van a una salida HTTP\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 120,
+        "wires": [
+            [
+                "00d9c2e813954e15"
+            ]
+        ]
+    },
+    {
+        "id": "4d925b961b5e4acb",
+        "type": "http in",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "url": "/personas",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "1359fbf644952e66"
+            ]
+        ]
+    },
+    {
+        "id": "b7b2d3bdedd18491",
+        "type": "http response",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 470,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "1359fbf644952e66",
+        "type": "template",
+        "z": "4d2b797f1a99d255",
+        "name": "List",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT * FROM trabajo_integrador_soa.personas ORDER BY apellido, nombre;",
+        "output": "str",
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "e5efee9309185740"
+            ]
+        ]
+    },
+    {
+        "id": "e5efee9309185740",
+        "type": "mysql",
+        "z": "4d2b797f1a99d255",
+        "mydb": "094c7d355a93548d",
+        "name": "DB List",
+        "x": 365,
+        "y": 320,
+        "wires": [
+            [
+                "b7b2d3bdedd18491"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8c183aa506ef6a8f",
+        "type": "http in",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "url": "/personas/:personId",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "5c022d18f9843b2d"
+            ]
+        ]
+    },
+    {
+        "id": "c1f3b039c61c295a",
+        "type": "http response",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5c022d18f9843b2d",
+        "type": "template",
+        "z": "4d2b797f1a99d255",
+        "name": "Get",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT * FROM trabajo_integrador_soa.personas WHERE personId='{{req.params.personId}}' ;",
+        "output": "str",
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "f97617f4af8ed8f2"
+            ]
+        ]
+    },
+    {
+        "id": "f97617f4af8ed8f2",
+        "type": "mysql",
+        "z": "4d2b797f1a99d255",
+        "mydb": "094c7d355a93548d",
+        "name": "DB Get",
+        "x": 415,
+        "y": 400,
+        "wires": [
+            [
+                "a577f934321f6731"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2c5458356e7d21e3",
+        "type": "change",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 545,
+        "y": 400,
+        "wires": [
+            [
+                "c1f3b039c61c295a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a577f934321f6731",
+        "type": "switch",
+        "z": "4d2b797f1a99d255",
+        "name": "",
+        "property": "payload.length",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 475,
+        "y": 400,
+        "wires": [
+            [
+                "2c5458356e7d21e3"
+            ],
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "8dc5b21710c8303a",
+        "type": "http request",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "/api-models",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://cernikiw3.chickenkiller.com/detections/models",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1130,
+        "y": 340,
+        "wires": [
+            [
+                "4f0223b08f71b762"
+            ]
+        ]
+    },
+    {
+        "id": "449cfa665ecd6bd3",
+        "type": "mysql",
+        "z": "1b02021741d115ea",
+        "g": "a9a80198754d4c51",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 285,
+        "y": 100,
+        "wires": [
+            [
+                "fe2b2be324c08f2b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fe2b2be324c08f2b",
+        "type": "debug",
+        "z": "1b02021741d115ea",
+        "g": "a9a80198754d4c51",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1695e3f9be05b221",
+        "type": "template",
+        "z": "1b02021741d115ea",
+        "g": "a9a80198754d4c51",
+        "name": "DDL Inicial",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "CREATE DATABASE IF NOT EXISTS trabajo_integrador_soa CHARACTER SET utf8;\nCREATE TABLE IF NOT EXISTS trabajo_integrador_soa.fotogramas (\n    frameId VARCHAR(36) PRIMARY KEY,\n    metadata JSON NOT NULL, -- Usamos JSONB (en Postgres) o JSON (en MySQL) para búsquedas rápidas\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\n-- 2. Creación de la Tabla de Detecciones (Resultados de YOLO)\nCREATE TABLE IF NOT EXISTS trabajo_integrador_soa.detecciones (\ndetectionId INT AUTO_INCREMENT PRIMARY KEY, -- ID numérico autoincremental para MySQL\n    frameId VARCHAR(36) NOT NULL,\n    modelId VARCHAR(36) NOT NULL,\n    detecciones JSON NOT NULL,                  -- Almacena la lista de objetos de YOLO\n    \n    -- Relación de clave foránea con borrado en cascada\n    CONSTRAINT fk_fotogramas\n        FOREIGN KEY (frameId) \n        REFERENCES fotogramas(frameId)\n        ON DELETE CASCADE\n);",
+        "output": "str",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "449cfa665ecd6bd3"
+            ]
+        ]
+    },
+    {
+        "id": "ec5cc6d47924e48c",
+        "type": "inject",
+        "z": "1b02021741d115ea",
+        "g": "a9a80198754d4c51",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 75,
+        "y": 100,
+        "wires": [
+            [
+                "1695e3f9be05b221"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e9becc2bea73af01",
+        "type": "http in",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "/models",
+        "url": "/models",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 930,
+        "y": 340,
+        "wires": [
+            [
+                "8dc5b21710c8303a"
+            ]
+        ]
+    },
+    {
+        "id": "4ca3659de396d6ec",
+        "type": "http in",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "/detection",
+        "url": "/detection",
+        "method": "post",
+        "upload": true,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 280,
+        "wires": [
+            [
+                "3238a6c188c7e48f"
+            ]
+        ]
+    },
+    {
+        "id": "886061c0860f96da",
+        "type": "http request",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "upload-seaweed",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 760,
+        "y": 220,
+        "wires": [
+            [
+                "90aa108c7e3f0620"
+            ]
+        ]
+    },
+    {
+        "id": "3238a6c188c7e48f",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "frameId y generacion ",
+        "func": "msg.frameId = \"frame_\" + Date.now() + \"_\" + Math.floor(Math.random() * 1000);\nflow.set(\"conexion_\" + msg.frameId, msg.res);\nglobal.set(\"res_\" + msg.frameId, msg.res);\n// 2. Extraemos la imagen desde files[0]\nlet archivo = null;\nif (msg.req && msg.req.files && msg.req.files.length > 0) {\n    archivo = msg.req.files[0];\n}\n\nif (!archivo) {\n    node.error(\"No se recibió ningún archivo\", msg);\n    return null;\n}\n\nmsg.fotoSegura = archivo.buffer;\nmsg.nombreSeguro = archivo.originalname || \"imagen.jpg\";\n\n// 3. Extraemos los datos del body\nlet body = msg.req.body || {};\n\nmsg.modelId = body.modelId || \"yolo26n\";\n\nif (typeof body.metadata === 'string') {\n    try {\n        msg.metadata = JSON.parse(body.metadata);\n    } catch (e) {\n        node.warn(\"metadata no es JSON válido\");\n        msg.metadata = { raw: body.metadata };\n    }\n} else {\n    msg.metadata = body.metadata || {};\n}\n\n// 4. Descartamos todo lo demás — msg queda limpio\nlet msgLimpio = {\n    _msgid: msg._msgid,\n    frameId: msg.frameId,\n    fotoSegura: msg.fotoSegura,\n    nombreSeguro: msg.nombreSeguro,\n    modelId: msg.modelId,\n    metadata: msg.metadata\n};\n\nreturn msgLimpio;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "b5e35816aeacdd9d",
+                "65355f9a7274d4c3"
+            ]
+        ]
+    },
+    {
+        "id": "2cc3385f4cb5d679",
+        "type": "http request",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "/api-detections",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://cernikiw3.chickenkiller.com/detections/api-detections",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 760,
+        "y": 340,
+        "wires": [
+            [
+                "90aa108c7e3f0620"
+            ]
+        ]
+    },
+    {
+        "id": "90aa108c7e3f0620",
+        "type": "join",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 930,
+        "y": 280,
+        "wires": [
+            [
+                "b822b005add3023f"
+            ]
+        ]
+    },
+    {
+        "id": "b822b005add3023f",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Extraemos",
+        "func": "// Extraemos las respuestas de cada rama del join\nlet respSeaweed = msg.payload.seaweed || {};\nlet respYolo = msg.payload.yolo || {};\n\n// Si llegaron como string los parseamos\nif (typeof respSeaweed === 'string') respSeaweed = JSON.parse(respSeaweed);\nif (typeof respYolo === 'string') respYolo = JSON.parse(respYolo);\n\n// Validamos que llegaron bien\nif (!respSeaweed.imageURL) {\n    node.error(\"SeaweedFS no devolvió imageURL: \" + JSON.stringify(respSeaweed), msg);\n    return null;\n}\nif (!respYolo.detecciones) {\n    node.error(\"YOLO no devolvió detecciones: \" + JSON.stringify(respYolo), msg);\n    return null;\n}\n\n// Preservamos todo lo que necesitamos después\nmsg.imageURL = respSeaweed.imageURL;\nmsg.detecciones = respYolo.detecciones;        // array completo\nmsg.modelId = respYolo.modelId || msg.modelId;\n\n// Limpiamos el payload del join\ndelete msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 280,
+        "wires": [
+            [
+                "1be07950d554f246"
+            ]
+        ]
+    },
+    {
+        "id": "720105a1d5a4f3b2",
+        "type": "mysql",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 1375,
+        "y": 280,
+        "wires": [
+            [
+                "8f83367f118dee77"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b5e35816aeacdd9d",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Peticion YOLO",
+        "func": "// Construimos el multipart manualmente con boundary\nlet boundary = \"----NodeREDBoundary\" + Date.now();\n\nlet CRLF = \"\\r\\n\";\n\n// Parte 1: el archivo\nlet partArchivo =\n    \"--\" + boundary + CRLF +\n    \"Content-Disposition: form-data; name=\\\"file\\\"; filename=\\\"\" + msg.nombreSeguro + \"\\\"\" + CRLF +\n    \"Content-Type: image/jpeg\" + CRLF +\n    CRLF;\n\n// Parte 2: el modelId\nlet partModelId =\n    CRLF + \"--\" + boundary + CRLF +\n    \"Content-Disposition: form-data; name=\\\"modelId\\\"\" + CRLF +\n    CRLF +\n    msg.modelId;\n\n// Cierre\nlet cierre = CRLF + \"--\" + boundary + \"--\" + CRLF;\n\n// Convertimos cada parte a Buffer y los concatenamos\nlet bufferInicio = Buffer.from(partArchivo, 'utf8');\nlet bufferImagen = msg.fotoSegura;\nlet bufferFin = Buffer.from(partModelId + cierre, 'utf8');\n\nmsg.payload = Buffer.concat([bufferInicio, bufferImagen, bufferFin]);\n\nmsg.headers = {\n    \"Content-Type\": \"multipart/form-data; boundary=\" + boundary\n};\n\nmsg.topic = \"yolo\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "2cc3385f4cb5d679"
+            ]
+        ]
+    },
+    {
+        "id": "1be07950d554f246",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Fotograma DB",
+        "func": "// Verificamos qué es metadata exactamente\nnode.warn(\"tipo metadata: \" + typeof msg.metadata);\nnode.warn(\"metadata valor: \" + JSON.stringify(msg.metadata));\n\nlet metadataStr;\ntry {\n    // Nos aseguramos que sea un objeto y lo convertimos a string JSON válido\n    let metadataObj = (typeof msg.metadata === 'object' && msg.metadata !== null)\n        ? msg.metadata\n        : {};\n    metadataStr = JSON.stringify(metadataObj);\n} catch (e) {\n    node.warn(\"Error convirtiendo metadata, usando {}\");\n    metadataStr = \"{}\";\n}\n\nnode.warn(\"metadataStr final: \" + metadataStr);\n\nmsg.topic = \"INSERT INTO trabajo_integrador_soa.fotogramas (frameId, metadata) VALUES (?, CAST(? AS JSON))\";\nmsg.payload = [\n    msg.frameId,\n    metadataStr\n];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 280,
+        "wires": [
+            [
+                "720105a1d5a4f3b2"
+            ]
+        ]
+    },
+    {
+        "id": "65355f9a7274d4c3",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Peticion seaweed",
+        "func": "let boundary = \"----NodeREDBoundary\" + Date.now();\n\nlet CRLF = \"\\r\\n\";\n\n// Parte 1: el archivo\nlet partArchivo =\n    \"--\" + boundary + CRLF +\n    \"Content-Disposition: form-data; name=\\\"file\\\"; filename=\\\"\" + msg.nombreSeguro + \"\\\"\" + CRLF +\n    \"Content-Type: image/jpeg\" + CRLF +\n    CRLF;\n\n// Cierre\nlet cierre = CRLF + \"--\" + boundary + \"--\" + CRLF;\n\n// Concatenamos los buffers\nlet bufferInicio = Buffer.from(partArchivo, 'utf8');\nlet bufferImagen = msg.fotoSegura;\nlet bufferFin = Buffer.from(cierre, 'utf8');\n\nmsg.payload = Buffer.concat([bufferInicio, bufferImagen, bufferFin]);\n\nmsg.headers = {\n    \"Content-Type\": \"multipart/form-data; boundary=\" + boundary\n};\n\nmsg.url = \"http://10.35.237.38:8000/upload-frame/\" + msg.frameId;\nmsg.topic = \"seaweed\";\n\n// Preservamos todo lo que necesitamos después del join\nmsg.frameId = msg.frameId;\nmsg.metadata = msg.metadata;\nmsg.modelId = msg.modelId;\nmsg.nombreSeguro = msg.nombreSeguro;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "886061c0860f96da"
+            ]
+        ]
+    },
+    {
+        "id": "8f83367f118dee77",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Deteccion DB",
+        "func": "msg.topic = \"INSERT INTO trabajo_integrador_soa.detecciones (frameId, modelId, detecciones) VALUES (?, ?, ?)\";\nmsg.payload = [\n    msg.frameId,\n    msg.modelId,\n    JSON.stringify(msg.detecciones || [])\n];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 280,
+        "wires": [
+            [
+                "52170774efd19def"
+            ]
+        ]
+    },
+    {
+        "id": "52170774efd19def",
+        "type": "mysql",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 1625,
+        "y": 280,
+        "wires": [
+            [
+                "1d42c41299842a75"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7878252b0c8a96c3",
+        "type": "http response",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1890,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1d42c41299842a75",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Response",
+        "func": "msg.headers = {}; \n\n// Buscamos en la memoria la conexión original usando el frameId de este mensaje\nlet conexionOriginal = flow.get(\"conexion_\" + msg.frameId);\n\nif (conexionOriginal) {\n    msg.res = conexionOriginal; // Se la devolvemos al mensaje para que el HTTP Response sepa a dónde ir\n} else {\n    node.warn(\"No se pudo recuperar la conexión para el frame: \" + msg.frameId);\n}\n\n// 3. Seteamos el código de éxito HTTP\nmsg.statusCode = 201;\n\n// 4. Tu payload que ya sabemos que está perfecto con las detecciones\nmsg.payload = {\n    status: \"success\",\n    frameId: msg.frameId,\n    modelId: msg.modelId || \"yolo26n\",\n    imageURL: msg.imageURL,\n    totalDetecciones: msg.detecciones ? msg.detecciones.length : 0,\n    detecciones: msg.detecciones || []\n};\n\n// 5. Opcional: Borramos el dato de la memoria para no acumular basura\nflow.set(\"conexion_\" + msg.frameId, undefined);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1740,
+        "y": 280,
+        "wires": [
+            [
+                "7878252b0c8a96c3"
+            ]
+        ]
+    },
+    {
+        "id": "be6b5791c55a2e2f",
+        "type": "inject",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 780,
+        "wires": [
+            [
+                "8edc5b14b398c65a"
+            ]
+        ]
+    },
+    {
+        "id": "8edc5b14b398c65a",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "Ultimo registro",
+        "func": "// Armamos la consulta para traer el último registro basado en la fecha\nmsg.topic = \"SELECT * FROM fotogramas ORDER BY created_at DESC LIMIT 1;\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 780,
+        "wires": [
+            [
+                "8be6fbe571da7353"
+            ]
+        ]
+    },
+    {
+        "id": "8be6fbe571da7353",
+        "type": "mysql",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 750,
+        "y": 920,
+        "wires": [
+            [
+                "6b40f4f3ce4a40dd",
+                "6be2b940d492ee79"
+            ]
+        ]
+    },
+    {
+        "id": "6be2b940d492ee79",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "Llamada fastAPI",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    // 1. Guardamos todos los datos (latitud, longitud, metadata) en un lugar seguro\n    msg.datosDB = msg.payload[0]; \n    \n    // 2. Armamos la URL para que Node-RED llame a tu código de Python (GET)\n    // CAMBIÁ LA IP por la IP real donde está corriendo Uvicorn\n    msg.url = \"http://10.35.237.38:8000/get-frame/\" + msg.datosDB.frameId;\n    \n    return msg;\n} else {\n    node.error(\"La tabla está vacía o no se encontró el registro.\");\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 780,
+        "wires": [
+            [
+                "f7c66dcc871f0541",
+                "7f754d2a48c28b60"
+            ]
+        ]
+    },
+    {
+        "id": "f7c66dcc871f0541",
+        "type": "http request",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1210,
+        "y": 780,
+        "wires": [
+            [
+                "d7229d43ee108a95",
+                "4eba8520a7f5411b"
+            ]
+        ]
+    },
+    {
+        "id": "eec1a6b4ec5f11b9",
+        "type": "http in",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "/nodo-buscar-frames",
+        "url": "/nodo-buscar-frames",
+        "method": "post",
+        "upload": true,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 920,
+        "wires": [
+            [
+                "93174e68a8161c60"
+            ]
+        ]
+    },
+    {
+        "id": "93174e68a8161c60",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "function 15",
+        "func": "// 1. Guardamos los filtros de FastAPI\nlet f = msg.payload; \n\n// 2. Tu SELECT * buscando dentro de la estructura flexible de metadata\n//msg.topic = `\n//    SELECT * FROM fotogramas \n//    WHERE metadata->'$.latitud' BETWEEN ${f.lat_min} AND ${f.lat_max} \n//      AND metadata->'$.longitud' BETWEEN ${f.lon_min} AND ${f.lon_max};\n//`;\n\n\n\n// Reemplazá 'nombre_bd_detecciones' por el nombre real de tu otra base de datos\nmsg.topic = `\nSELECT \n        f.frameId, \n        f.metadata, \n        d.detecciones \n    FROM fotogramas f\n    LEFT JOIN detecciones d ON f.frameId = d.frameId\n    WHERE f.metadata->'$.latitud' BETWEEN ${f.lat_min} AND ${f.lat_max} \n      AND f.metadata->'$.longitud' BETWEEN ${f.lon_min} AND ${f.lon_max};\n`;\n\nmsg.clase_filtro = f.clase;\nreturn msg;\nmsg.clase_filtro = f.clase;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 920,
+        "wires": [
+            [
+                "8be6fbe571da7353",
+                "a6f13e7407618551"
+            ]
+        ]
+    },
+    {
+        "id": "6b40f4f3ce4a40dd",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "Llamada fastAPI",
+        "func": "let filas = msg.payload; \nlet respuesta_final = [];\nlet clase_buscada = msg.clase_filtro;\n\nfilas.forEach(fila => {\n    // 1. Convertimos los metadatos a objeto JSON (vital para que no de undefined)\n    let meta = fila.metadata;\n    if (typeof meta === 'string') {\n        try { meta = JSON.parse(meta); } catch (e) { meta = {}; }\n    } else if (!meta) {\n        meta = {};\n    }\n\n    \n    let detecciones = fila.detecciones;\n    if (typeof detecciones === 'string') {\n        try { detecciones = JSON.parse(detecciones); } catch (e) { detecciones = []; }\n    } else if (!detecciones) { \n        detecciones = [];\n    }\n\n    if (clase_buscada) {\n        let tiene_clase = detecciones.some(d => d.class_name === clase_buscada || d.label === clase_buscada);\n        if (!tiene_clase) return; // Si no la tiene, salteamos este frame\n    }\n\n    //  Armamos la respuesta final\n    respuesta_final.push({\n        \"frameId\": fila.frameId,\n        \"imageURL\": `http://10.35.237.38:8888/fotogramas/${fila.frameId}.jpg`, \n        \"metadata\": meta, \n        \"detections\": detecciones\n    });\n});\n\n// Le pasamos el resultado final al http response para que vuelva a FastAPI\nmsg.payload = respuesta_final;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 920,
+        "wires": [
+            [
+                "fb945063e6443016",
+                "eba5ee503b702a73"
+            ]
+        ]
+    },
+    {
+        "id": "fb945063e6443016",
+        "type": "debug",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "debug 36",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "eba5ee503b702a73",
+        "type": "http response",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1250,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "a6f13e7407618551",
+        "type": "debug",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "debug 38",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "d7229d43ee108a95",
+        "type": "image viewer",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 1410,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "722a302961f6ca84",
+        "type": "comment",
+        "z": "1b02021741d115ea",
+        "name": "",
+        "info": "# Servicio de Busqueda de Imagen\n## Segun Latitud y longitud\nLo que se hace en este momento es generar una consulta utilizando latitud y longitud\nminima y maxima, haciendo una busqueda de todas las imagenes que cumplan con este criterio\nen la base de datos.  ",
+        "x": 60,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "4eba8520a7f5411b",
+        "type": "debug",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "debug 37",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "7f754d2a48c28b60",
+        "type": "debug",
+        "z": "1b02021741d115ea",
+        "g": "e8687869c6ccace0",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "62750ad5a9f59d6f",
+        "type": "http response",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1490,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ba9b4e923249faa7",
+        "type": "http in",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "/detecciones",
+        "url": "/detecciones",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "95c4da9bbcdfb67e"
+            ]
+        ]
+    },
+    {
+        "id": "bc799f199bcdf5c2",
+        "type": "mysql",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 555,
+        "y": 440,
+        "wires": [
+            [
+                "37e1f10b9eedea3a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "95c4da9bbcdfb67e",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Extraccion detecciones",
+        "func": "msg.topic = `\n    SELECT \n        f.frameId, \n        f.metadata, \n        d.detecciones \n    FROM trabajo_integrador_soa.fotogramas f\n    INNER JOIN trabajo_integrador_soa.detecciones d \n    ON f.frameId = d.frameId\n    ORDER BY f.frameId DESC\n    LIMIT 50\n`;\n\nmsg.payload = null;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 440,
+        "wires": [
+            [
+                "bc799f199bcdf5c2"
+            ]
+        ]
+    },
+    {
+        "id": "11997696d2386b35",
+        "type": "http response",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 930,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "37e1f10b9eedea3a",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "Armamos response",
+        "func": "if (!Array.isArray(msg.payload) || msg.payload.length === 0) {\n    msg.statusCode = 404;\n    msg.payload = { error: \"No se encontraron detecciones para ese frameId\" };\n    return msg;\n}\n\nmsg.payload = msg.payload.map(fila => {\n    try {\n        if (typeof fila.detecciones === 'string' && fila.detecciones.trim() !== '') {\n            fila.detecciones = JSON.parse(fila.detecciones);\n        }\n    } catch (error) {\n        fila.detecciones = [];\n    }\n\n    try {\n        if (typeof fila.metadata === 'string' && fila.metadata.startsWith('{')) {\n            fila.metadata = JSON.parse(fila.metadata);\n        }\n    } catch (error) {\n        // lo dejamos tal cual\n    }\n\n    return fila;\n});\n\nmsg.statusCode = 200;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 440,
+        "wires": [
+            [
+                "11997696d2386b35"
+            ]
+        ]
+    },
+    {
+        "id": "a95a693cf7f2806f",
+        "type": "http in",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "detection/:frameId",
+        "url": "/get-detection/:frameId",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 560,
+        "wires": [
+            [
+                "5e3c3697d13c668f"
+            ]
+        ]
+    },
+    {
+        "id": "5e3c3697d13c668f",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "function 4",
+        "func": "let idRecibido = msg.req.params.frameId;\n\n// Lo guardamos en una variable fácil de usar para el resto del flujo\nmsg.frameId = idRecibido;\n\n// Opcional: si querés que también sea el payload principal\nmsg.payload = {\n    frameId: idRecibido\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 560,
+        "wires": [
+            [
+                "68ba12e73917c8f7"
+            ]
+        ]
+    },
+    {
+        "id": "68ba12e73917c8f7",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "function 5",
+        "func": "if (!msg.frameId) {\n    node.error(\"Falta el frameId\");\n    return null;\n}\n\n// Armamos la consulta inyectando la variable dinámicamente\nmsg.topic = `\n    SELECT \n        f.frameId, \n        f.metadata, \n        d.detecciones \n    FROM trabajo_integrador_soa.fotogramas f\n    INNER JOIN trabajo_integrador_soa.detecciones d \n    ON f.frameId = d.frameId\n    WHERE f.frameId = '${msg.frameId}';\n`;\n\nreturn msg;\n\n// Limpiamos el payload por si venía basura del cliente\nmsg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 560,
+        "wires": [
+            [
+                "7f80689ef8c79516"
+            ]
+        ]
+    },
+    {
+        "id": "7f80689ef8c79516",
+        "type": "mysql",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 715,
+        "y": 560,
+        "wires": [
+            [
+                "db925c45b21f1ace"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "db925c45b21f1ace",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "function 6",
+        "func": "if (!Array.isArray(msg.payload) || msg.payload.length === 0) {\n    msg.statusCode = 404;\n    msg.payload = { error: \"No se encontraron registros\" };\n    return msg;\n}\n\nmsg.payload = msg.payload.map(fila => {\n    try {\n        if (typeof fila.detecciones === 'string' && fila.detecciones.trim() !== '') {\n            fila.detecciones = JSON.parse(fila.detecciones);\n        }\n    } catch (error) {\n        fila.detecciones = {};\n    }\n\n    try {\n        if (typeof fila.metadata === 'string' && fila.metadata.startsWith('{')) {\n            fila.metadata = JSON.parse(fila.metadata);\n        }\n    } catch (error) {\n        // lo dejamos tal cual\n    }\n\n    return fila;\n});\n\nmsg.statusCode = 200;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 560,
+        "wires": [
+            [
+                "626d4cc119da9617"
+            ]
+        ]
+    },
+    {
+        "id": "626d4cc119da9617",
+        "type": "http response",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1090,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1475a9f45bd92863",
+        "type": "catch",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1510,
+        "y": 480,
+        "wires": [
+            [
+                "53b19a6a62f9522c",
+                "b3b49303033c48e5"
+            ]
+        ]
+    },
+    {
+        "id": "5e1c443e463ace3b",
+        "type": "http response",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1850,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "53b19a6a62f9522c",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "function 7",
+        "func": "// Recuperamos el res guardado al inicio\nmsg.res = global.get(\"res_\" + msg.frameId);\nglobal.set(\"res_\" + msg.frameId, undefined);\n\nmsg.statusCode = 400;\nmsg.payload = {\n    error: msg.error.message || \"Error en el procesamiento\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 480,
+        "wires": [
+            [
+                "5e1c443e463ace3b"
+            ]
+        ]
+    },
+    {
+        "id": "b3b49303033c48e5",
+        "type": "debug",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1650,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4f0223b08f71b762",
+        "type": "function",
+        "z": "1b02021741d115ea",
+        "g": "a18ef9d30d6ce7f2",
+        "name": "function 8",
+        "func": "let modelos = msg.payload.models || [];\n\nmsg.payload = modelos.map(m => m.id);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 340,
+        "wires": [
+            [
+                "62750ad5a9f59d6f"
+            ]
+        ]
+    },
+    {
+        "id": "6edad35b64e609cc",
+        "type": "inject",
+        "z": "8d29c5cebb56dbf8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 300,
+        "wires": [
+            [
+                "9652bb8d20ac518a"
+            ]
+        ]
+    },
+    {
+        "id": "9652bb8d20ac518a",
+        "type": "function",
+        "z": "8d29c5cebb56dbf8",
+        "name": "Ultimo registro",
+        "func": "// Armamos la consulta para traer el último registro basado en la fecha\nmsg.topic = \"SELECT * FROM fotogramas ORDER BY created_at DESC LIMIT 1;\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "c275251a027c1cd6"
+            ]
+        ]
+    },
+    {
+        "id": "c275251a027c1cd6",
+        "type": "mysql",
+        "z": "8d29c5cebb56dbf8",
+        "mydb": "094c7d355a93548d",
+        "name": "",
+        "x": 670,
+        "y": 440,
+        "wires": [
+            [
+                "1f152af2b4eeba88",
+                "f0f82f39d6516be1",
+                "6eb4f9f566f0fbaf"
+            ]
+        ]
+    },
+    {
+        "id": "1f152af2b4eeba88",
+        "type": "function",
+        "z": "8d29c5cebb56dbf8",
+        "name": "Llamada fastAPI",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    // 1. Guardamos todos los datos (latitud, longitud, metadata) en un lugar seguro\n    msg.datosDB = msg.payload[0]; \n    \n    // 2. Armamos la URL para que Node-RED llame a tu código de Python (GET)\n    // CAMBIÁ LA IP por la IP real donde está corriendo Uvicorn\n    msg.url = \"http://10.35.237.38:8000/get-frame/\" + msg.datosDB.frameId;\n    \n    return msg;\n} else {\n    node.error(\"La tabla está vacía o no se encontró el registro.\");\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 300,
+        "wires": [
+            [
+                "c759cf4062c6519d"
+            ]
+        ]
+    },
+    {
+        "id": "c759cf4062c6519d",
+        "type": "http request",
+        "z": "8d29c5cebb56dbf8",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1130,
+        "y": 300,
+        "wires": [
+            [
+                "1eb4d6b2bc3d2b8c"
+            ]
+        ]
+    },
+    {
+        "id": "e521b3814a145226",
+        "type": "http in",
+        "z": "8d29c5cebb56dbf8",
+        "name": "/nodo-buscar-frames",
+        "url": "/nodo-buscar-frames",
+        "method": "post",
+        "upload": true,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 600,
+        "wires": [
+            [
+                "d132b1e062793436"
+            ]
+        ]
+    },
+    {
+        "id": "d132b1e062793436",
+        "type": "function",
+        "z": "8d29c5cebb56dbf8",
+        "name": "function 13",
+        "func": "// 1. Guardamos los filtros de FastAPI\nlet f = msg.payload; \n\n// 2. Tu SELECT * buscando dentro de la estructura flexible de metadata\nmsg.topic = `\n    SELECT * FROM fotogramas \n    WHERE metadata->'$.latitud' BETWEEN ${f.lat_min} AND ${f.lat_max} \n      AND metadata->'$.longitud' BETWEEN ${f.lon_min} AND ${f.lon_max};\n`;\n\n\nmsg.clase_filtro = f.clase;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 600,
+        "wires": [
+            [
+                "c275251a027c1cd6",
+                "397a71973b3ed642"
+            ]
+        ]
+    },
+    {
+        "id": "f0f82f39d6516be1",
+        "type": "function",
+        "z": "8d29c5cebb56dbf8",
+        "name": "Llamada fastAPI",
+        "func": "let filas = msg.payload; // Lo que trajo la BD\nlet respuesta_final = [];\nlet clase_buscada = msg.clase_filtro;\n\nfilas.forEach(fila => {\n    // Convertimos las detecciones a objeto JSON si vinieron como texto\n    let detecciones = fila.detecciones;\n    if (typeof detecciones === 'string') {\n        try { detecciones = JSON.parse(detecciones); } catch(e) { detecciones = []; }\n    }\n\n    // Si el usuario filtró por una clase (ej: \"person\"), comprobamos si el frame la tiene\n    if (clase_buscada) {\n        let tiene_clase = detecciones.some(d => d.clase === clase_buscada || d.label === clase_buscada);\n        if (!tiene_clase) return; // Si no la tiene, salteamos este frame\n    }\n\n\n    respuesta_final.push({\n        \"frameId\": fila.frameId,\n        \"imageURL\": `http://10.35.237.38:8000/frames/${fila.frameId}`, // Tu servicio S3\n        \"metadata\": {\n            \"latitud\": fila.metadata.latitud,\n            \"longitud\": fila.metadata.longitud,\n            \"sensor\": fila.sensor || \"desconocido\"\n        },\n        \"detections\": detecciones\n    });\n});\n\n// Le pasamos el resultado final al http response para que vuelva a FastAPI\nmsg.payload = respuesta_final;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 600,
+        "wires": [
+            [
+                "56dd76e197c254a0",
+                "8dbf7a9a0d221a2a"
+            ]
+        ]
+    },
+    {
+        "id": "56dd76e197c254a0",
+        "type": "debug",
+        "z": "8d29c5cebb56dbf8",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "6eb4f9f566f0fbaf",
+        "type": "debug",
+        "z": "8d29c5cebb56dbf8",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8dbf7a9a0d221a2a",
+        "type": "http response",
+        "z": "8d29c5cebb56dbf8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1090,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "397a71973b3ed642",
+        "type": "debug",
+        "z": "8d29c5cebb56dbf8",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "1eb4d6b2bc3d2b8c",
+        "type": "image viewer",
+        "z": "8d29c5cebb56dbf8",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 1330,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    }
+]
