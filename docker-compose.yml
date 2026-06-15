@@ -33,8 +33,7 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQLROOTPWD}
-      #MYSQL_ROOT_PASSWORD: iwei4a2o25
-
+     
     expose:
       - 3306
     ports:

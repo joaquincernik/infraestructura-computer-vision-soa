@@ -1,1 +1,4 @@
 .env
+nodered_data/node_modules/
+nodered_data/.npm/
+mysql_data/
